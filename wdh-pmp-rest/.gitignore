@@ -39,6 +39,10 @@ nbdist/
 *.xml.versionsBackup
 *.swp
 
+# mac-os
+*.DS_Store
+*/.DS_Store
+
 !*/build/*.java
 !*/build/*.html
 !*/build/*.xml
