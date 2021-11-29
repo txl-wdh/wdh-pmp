@@ -3,7 +3,7 @@ package com.wdh.common.constant;
 /**
  * 用户常量信息
  * 
- * @author ruoyi
+ * @author txl
  */
 public class UserConstants
 {

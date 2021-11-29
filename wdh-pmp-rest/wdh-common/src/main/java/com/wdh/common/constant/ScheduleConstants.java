@@ -3,7 +3,7 @@ package com.wdh.common.constant;
 /**
  * 任务调度通用常量
  * 
- * @author ruoyi
+ * @author txl
  */
 public class ScheduleConstants
 {

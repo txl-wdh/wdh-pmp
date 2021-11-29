@@ -7,7 +7,7 @@ import com.wdh.common.utils.DateUtils;
 /**
  * JVM相关信息
  * 
- * @author ruoyi
+ * @author txl
  */
 public class Jvm
 {

@@ -33,7 +33,7 @@ import com.wdh.system.service.ISysUserService;
 /**
  * 用户信息
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/system/user")

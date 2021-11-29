@@ -5,7 +5,7 @@ import com.wdh.common.utils.Arith;
 /**
  * 內存相关信息
  * 
- * @author ruoyi
+ * @author txl
  */
 public class Mem
 {

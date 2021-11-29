@@ -11,7 +11,7 @@ import com.wdh.common.utils.http.HttpUtils;
 /**
  * 获取地址类
  * 
- * @author ruoyi
+ * @author txl
  */
 public class AddressUtils
 {

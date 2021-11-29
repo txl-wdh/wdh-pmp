@@ -25,7 +25,7 @@ import com.wdh.system.service.ISysDictTypeService;
 /**
  * 数据字典信息
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/system/dict/type")

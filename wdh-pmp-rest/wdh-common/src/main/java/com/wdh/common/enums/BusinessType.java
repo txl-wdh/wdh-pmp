@@ -3,7 +3,7 @@ package com.wdh.common.enums;
 /**
  * 业务操作类型
  * 
- * @author ruoyi
+ * @author txl
  */
 public enum BusinessType
 {

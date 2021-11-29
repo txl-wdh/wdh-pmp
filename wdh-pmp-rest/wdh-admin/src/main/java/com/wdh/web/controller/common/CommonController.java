@@ -21,7 +21,7 @@ import com.wdh.framework.config.ServerConfig;
 /**
  * 通用请求处理
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 public class CommonController

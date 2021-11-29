@@ -17,7 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * 文件上传工具类
  *
- * @author ruoyi
+ * @author txl
  */
 public class FileUploadUtils
 {

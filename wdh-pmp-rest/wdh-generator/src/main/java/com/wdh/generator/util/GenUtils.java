@@ -12,7 +12,7 @@ import com.wdh.common.utils.StringUtils;
 /**
  * 代码生成器 工具类
  * 
- * @author ruoyi
+ * @author txl
  */
 public class GenUtils
 {

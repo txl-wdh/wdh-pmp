@@ -27,7 +27,7 @@ import com.wdh.system.service.ISysUserService;
 /**
  * 个人信息 业务处理
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/system/user/profile")

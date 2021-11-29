@@ -15,7 +15,7 @@ import com.wdh.common.utils.StringUtils;
 /**
  * Filter配置
  *
- * @author ruoyi
+ * @author txl
  */
 @Configuration
 @ConditionalOnProperty(value = "xss.enabled", havingValue = "true")

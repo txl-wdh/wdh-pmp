@@ -9,14 +9,14 @@ import com.wdh.common.utils.StringUtils;
 /**
  * 首页
  *
- * @author ruoyi
+ * @author txl
  */
 @RestController
 public class SysIndexController
 {
     /** 系统基础配置 */
     @Autowired
-    private WdhConfig ruoyiConfig;
+    private WdhConfig wdhConfig;
 
     /**
      * 访问首页，提示语
@@ -24,6 +24,6 @@ public class SysIndexController
     @RequestMapping("/")
     public String index()
     {
-        return StringUtils.format("欢迎使用{}后台管理框架，当前版本：v{}，请通过前端地址访问。", ruoyiConfig.getName(), ruoyiConfig.getVersion());
+        return StringUtils.format("欢迎使用{}后台管理框架，当前版本：v{}，请通过前端地址访问。", wdhConfig.getName(), wdhConfig.getVersion());
     }
 }

@@ -9,7 +9,7 @@ import com.wdh.common.utils.html.EscapeUtil;
 /**
  * 获取IP方法
  * 
- * @author ruoyi
+ * @author txl
  */
 public class IpUtils
 {

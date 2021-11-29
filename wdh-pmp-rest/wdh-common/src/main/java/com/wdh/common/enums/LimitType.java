@@ -3,7 +3,7 @@ package com.wdh.common.enums;
 /**
  * 限流类型
  *
- * @author ruoyi
+ * @author txl
  */
 
 public enum LimitType

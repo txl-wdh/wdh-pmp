@@ -7,7 +7,7 @@ import com.wdh.common.constant.Constants;
 /**
  * VelocityEngine工厂
  * 
- * @author ruoyi
+ * @author txl
  */
 public class VelocityInitializer
 {

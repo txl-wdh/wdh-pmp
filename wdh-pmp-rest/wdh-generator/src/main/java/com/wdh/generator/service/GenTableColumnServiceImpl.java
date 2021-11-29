@@ -11,7 +11,7 @@ import com.wdh.common.core.text.Convert;
 /**
  * 业务字段 服务层实现
  * 
- * @author ruoyi
+ * @author txl
  */
 @Service
 public class GenTableColumnServiceImpl implements IGenTableColumnService 

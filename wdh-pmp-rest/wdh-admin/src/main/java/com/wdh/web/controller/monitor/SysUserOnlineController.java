@@ -26,7 +26,7 @@ import com.wdh.system.service.ISysUserOnlineService;
 /**
  * 在线用户监控
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/monitor/online")

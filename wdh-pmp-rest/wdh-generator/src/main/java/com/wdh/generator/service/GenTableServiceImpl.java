@@ -40,7 +40,7 @@ import com.wdh.common.utils.StringUtils;
 /**
  * 业务 服务层实现
  * 
- * @author ruoyi
+ * @author txl
  */
 @Service
 public class GenTableServiceImpl implements IGenTableService

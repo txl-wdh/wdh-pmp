@@ -9,7 +9,7 @@ import com.wdh.common.core.controller.BaseController;
 /**
  * swagger 接口
  * 
- * @author ruoyi
+ * @author txl
  */
 @Controller
 @RequestMapping("/tool/swagger")

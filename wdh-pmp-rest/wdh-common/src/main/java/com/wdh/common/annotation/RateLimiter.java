@@ -11,7 +11,7 @@ import com.wdh.common.enums.LimitType;
 /**
  * 限流注解
  * 
- * @author ruoyi
+ * @author txl
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

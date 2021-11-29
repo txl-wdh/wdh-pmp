@@ -6,7 +6,7 @@ import com.wdh.system.domain.SysConfig;
 /**
  * 参数配置 数据层
  * 
- * @author ruoyi
+ * @author txl
  */
 public interface SysConfigMapper
 {

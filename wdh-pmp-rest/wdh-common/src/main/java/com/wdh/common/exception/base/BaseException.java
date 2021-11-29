@@ -6,7 +6,7 @@ import com.wdh.common.utils.StringUtils;
 /**
  * 基础异常
  * 
- * @author ruoyi
+ * @author txl
  */
 public class BaseException extends RuntimeException
 {

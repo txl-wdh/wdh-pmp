@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 图片处理工具类
  *
- * @author ruoyi
+ * @author txl
  */
 public class ImageUtils
 {

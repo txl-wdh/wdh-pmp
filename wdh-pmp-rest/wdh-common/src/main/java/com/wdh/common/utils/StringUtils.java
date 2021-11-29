@@ -14,7 +14,7 @@ import com.wdh.common.constant.Constants;
 /**
  * 字符串工具类
  * 
- * @author ruoyi
+ * @author txl
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils
 {

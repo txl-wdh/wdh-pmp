@@ -24,7 +24,7 @@ import com.wdh.system.service.ISysMenuService;
 /**
  * 菜单信息
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/system/menu")

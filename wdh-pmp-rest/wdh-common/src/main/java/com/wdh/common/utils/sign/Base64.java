@@ -3,7 +3,7 @@ package com.wdh.common.utils.sign;
 /**
  * Base64工具类
  * 
- * @author ruoyi
+ * @author txl
  */
 public final class Base64
 {

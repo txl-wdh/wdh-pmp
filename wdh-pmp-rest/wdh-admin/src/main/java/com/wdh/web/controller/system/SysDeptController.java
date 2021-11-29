@@ -26,7 +26,7 @@ import com.wdh.system.service.ISysDeptService;
 /**
  * 部门信息
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/system/dept")

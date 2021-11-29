@@ -22,7 +22,7 @@ import org.apache.commons.lang3.ArrayUtils;
 /**
  * 文件处理工具类
  * 
- * @author ruoyi
+ * @author txl
  */
 public class FileUtils
 {

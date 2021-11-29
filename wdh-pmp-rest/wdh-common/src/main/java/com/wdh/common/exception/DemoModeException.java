@@ -3,7 +3,7 @@ package com.wdh.common.exception;
 /**
  * 演示模式异常
  * 
- * @author ruoyi
+ * @author txl
  */
 public class DemoModeException extends RuntimeException
 {

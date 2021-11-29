@@ -5,7 +5,7 @@ import com.wdh.common.utils.StringUtils;
 /**
  * 字符串格式化
  * 
- * @author ruoyi
+ * @author txl
  */
 public class StrFormatter
 {

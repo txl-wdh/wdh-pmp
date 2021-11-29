@@ -7,7 +7,7 @@ import com.wdh.common.utils.ServletUtils;
 /**
  * 服务相关配置
  * 
- * @author ruoyi
+ * @author txl
  */
 @Component
 public class ServerConfig

@@ -15,7 +15,7 @@ import com.wdh.common.utils.StringUtils;
 /**
  * 模板处理工具类
  * 
- * @author ruoyi
+ * @author txl
  */
 public class VelocityUtils
 {

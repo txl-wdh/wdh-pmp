@@ -9,9 +9,9 @@ import com.wdh.common.utils.SecurityUtils;
 import com.wdh.common.utils.StringUtils;
 
 /**
- * RuoYi首创 自定义权限实现，ss取自SpringSecurity首字母
+ * ruoyi首创 自定义权限实现，ss取自SpringSecurity首字母
  * 
- * @author ruoyi
+ * @author txl
  */
 @Service("ss")
 public class PermissionService

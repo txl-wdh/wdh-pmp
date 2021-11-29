@@ -30,7 +30,7 @@ import com.wdh.system.service.ISysUserService;
 /**
  * 用户 业务层处理
  * 
- * @author ruoyi
+ * @author txl
  */
 @Service
 public class SysUserServiceImpl implements ISysUserService

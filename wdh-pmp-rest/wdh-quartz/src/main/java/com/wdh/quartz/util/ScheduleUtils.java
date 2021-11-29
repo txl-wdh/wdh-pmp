@@ -18,7 +18,7 @@ import com.wdh.quartz.domain.SysJob;
 /**
  * 定时任务工具类
  * 
- * @author ruoyi
+ * @author txl
  *
  */
 public class ScheduleUtils

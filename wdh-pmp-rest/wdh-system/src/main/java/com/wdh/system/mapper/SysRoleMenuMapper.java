@@ -6,7 +6,7 @@ import com.wdh.system.domain.SysRoleMenu;
 /**
  * 角色与菜单关联表 数据层
  * 
- * @author ruoyi
+ * @author txl
  */
 public interface SysRoleMenuMapper
 {

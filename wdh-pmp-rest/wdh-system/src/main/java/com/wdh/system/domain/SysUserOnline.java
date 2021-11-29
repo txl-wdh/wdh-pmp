@@ -3,7 +3,7 @@ package com.wdh.system.domain;
 /**
  * 当前在线会话
  * 
- * @author ruoyi
+ * @author txl
  */
 public class SysUserOnline
 {

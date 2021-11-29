@@ -11,7 +11,7 @@ import com.wdh.common.core.domain.BaseEntity;
 /**
  * 岗位表 sys_post
  * 
- * @author ruoyi
+ * @author txl
  */
 public class SysPost extends BaseEntity
 {

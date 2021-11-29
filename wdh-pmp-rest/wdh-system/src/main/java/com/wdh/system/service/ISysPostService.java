@@ -6,7 +6,7 @@ import com.wdh.system.domain.SysPost;
 /**
  * 岗位信息 服务层
  * 
- * @author ruoyi
+ * @author txl
  */
 public interface ISysPostService
 {

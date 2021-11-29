@@ -3,7 +3,7 @@ package com.wdh.common.exception;
 /**
  * 全局异常
  * 
- * @author ruoyi
+ * @author txl
  */
 public class GlobalException extends RuntimeException
 {

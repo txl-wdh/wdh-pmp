@@ -11,7 +11,7 @@ import com.wdh.common.core.domain.BaseEntity;
 /**
  * 参数配置表 sys_config
  * 
- * @author ruoyi
+ * @author txl
  */
 public class SysConfig extends BaseEntity
 {

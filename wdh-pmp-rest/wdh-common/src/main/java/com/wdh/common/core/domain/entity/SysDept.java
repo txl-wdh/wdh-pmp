@@ -12,7 +12,7 @@ import com.wdh.common.core.domain.BaseEntity;
 /**
  * 部门表 sys_dept
  * 
- * @author ruoyi
+ * @author txl
  */
 public class SysDept extends BaseEntity
 {

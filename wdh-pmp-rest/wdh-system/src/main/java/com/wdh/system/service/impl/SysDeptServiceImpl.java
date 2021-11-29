@@ -25,7 +25,7 @@ import com.wdh.system.service.ISysDeptService;
 /**
  * 部门管理 服务实现
  * 
- * @author ruoyi
+ * @author txl
  */
 @Service
 public class SysDeptServiceImpl implements ISysDeptService

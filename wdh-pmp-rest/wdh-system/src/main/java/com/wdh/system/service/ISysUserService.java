@@ -6,7 +6,7 @@ import com.wdh.common.core.domain.entity.SysUser;
 /**
  * 用户 业务层
  * 
- * @author ruoyi
+ * @author txl
  */
 public interface ISysUserService
 {

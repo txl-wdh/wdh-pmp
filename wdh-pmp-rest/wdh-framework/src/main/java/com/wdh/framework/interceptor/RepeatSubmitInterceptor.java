@@ -14,7 +14,7 @@ import com.wdh.common.utils.ServletUtils;
 /**
  * 防止重复提交拦截器
  *
- * @author ruoyi
+ * @author txl
  */
 @Component
 public abstract class RepeatSubmitInterceptor extends HandlerInterceptorAdapter

@@ -20,7 +20,7 @@ import com.wdh.quartz.service.ISysJobLogService;
 /**
  * 调度日志操作处理
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/monitor/jobLog")

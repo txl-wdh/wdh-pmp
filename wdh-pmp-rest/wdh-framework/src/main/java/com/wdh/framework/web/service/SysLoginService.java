@@ -27,7 +27,7 @@ import com.wdh.system.service.ISysUserService;
 /**
  * 登录校验方法
  * 
- * @author ruoyi
+ * @author txl
  */
 @Component
 public class SysLoginService

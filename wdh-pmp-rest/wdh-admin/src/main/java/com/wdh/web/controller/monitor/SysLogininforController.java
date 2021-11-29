@@ -20,7 +20,7 @@ import com.wdh.system.service.ISysLogininforService;
 /**
  * 系统访问记录
  * 
- * @author ruoyi
+ * @author txl
  */
 @RestController
 @RequestMapping("/monitor/logininfor")

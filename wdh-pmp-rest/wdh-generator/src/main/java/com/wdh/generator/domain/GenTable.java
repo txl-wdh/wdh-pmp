@@ -11,7 +11,7 @@ import com.wdh.common.utils.StringUtils;
 /**
  * 业务表 gen_table
  * 
- * @author ruoyi
+ * @author txl
  */
 public class GenTable extends BaseEntity
 {
