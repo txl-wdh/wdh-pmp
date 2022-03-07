@@ -26,12 +26,12 @@ port(){
 
 # 启动基础环境（必须）
 base(){
-	docker-compose up -d ruoyi-mysql ruoyi-redis ruoyi-nacos
+	docker-compose up -d wdh-mysql wdh-redis wdh-nacos
 }
 
 # 启动程序模块（必须）
 modules(){
-	docker-compose up -d ruoyi-nginx ruoyi-gateway ruoyi-auth ruoyi-modules-system
+	docker-compose up -d wdh-nginx wdh-gateway wdh-auth wdh-modules-system
 }
 
 # 关闭所有环境/模块

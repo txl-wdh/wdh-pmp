@@ -10,32 +10,32 @@ usage() {
 # copy sql
 echo "begin copy sql "
 cp ../sql/ry_20210908.sql ./mysql/db
-cp ../sql/ry_config_20211118.sql ./mysql/db
+cp ../sql/ry_config_20220114.sql ./mysql/db
 
 # copy html
 echo "begin copy html "
-cp -r ../ruoyi-ui/dist/** ./nginx/html/dist
+cp -r ../wdh-ui/dist/** ./nginx/html/dist
 
 
 # copy jar
-echo "begin copy ruoyi-gateway "
-cp ../ruoyi-gateway/target/ruoyi-gateway.jar ./ruoyi/gateway/jar
+echo "begin copy wdh-gateway "
+cp ../wdh-gateway/target/wdh-gateway.jar ./ruoyi/gateway/jar
 
-echo "begin copy ruoyi-auth "
-cp ../ruoyi-auth/target/ruoyi-auth.jar ./ruoyi/auth/jar
+echo "begin copy wdh-auth "
+cp ../wdh-auth/target/wdh-auth.jar ./ruoyi/auth/jar
 
-echo "begin copy ruoyi-visual "
-cp ../ruoyi-visual/ruoyi-monitor/target/ruoyi-visual-monitor.jar  ./ruoyi/visual/monitor/jar
+echo "begin copy wdh-visual "
+cp ../wdh-visual/wdh-monitor/target/wdh-visual-monitor.jar  ./ruoyi/visual/monitor/jar
 
-echo "begin copy ruoyi-modules-system "
-cp ../ruoyi-modules/ruoyi-system/target/ruoyi-modules-system.jar ./ruoyi/modules/system/jar
+echo "begin copy wdh-modules-system "
+cp ../wdh-modules/wdh-system/target/wdh-modules-system.jar ./ruoyi/modules/system/jar
 
-echo "begin copy ruoyi-modules-file "
-cp ../ruoyi-modules/ruoyi-file/target/ruoyi-modules-file.jar ./ruoyi/modules/file/jar
+echo "begin copy wdh-modules-file "
+cp ../wdh-modules/wdh-file/target/wdh-modules-file.jar ./ruoyi/modules/file/jar
 
-echo "begin copy ruoyi-modules-job "
-cp ../ruoyi-modules/ruoyi-job/target/ruoyi-modules-job.jar ./ruoyi/modules/job/jar
+echo "begin copy wdh-modules-job "
+cp ../wdh-modules/wdh-job/target/wdh-modules-job.jar ./ruoyi/modules/job/jar
 
-echo "begin copy ruoyi-modules-gen "
-cp ../ruoyi-modules/ruoyi-gen/target/ruoyi-modules-gen.jar ./ruoyi/modules/gen/jar
+echo "begin copy wdh-modules-gen "
+cp ../wdh-modules/wdh-gen/target/wdh-modules-gen.jar ./ruoyi/modules/gen/jar
 
