@@ -1,0 +1,18 @@
+2022-03-07 16:58:24,259 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-07 16:58:24,259 WARN Using naming.distro config to replace core.distro config
+
+2022-03-07 16:58:24,456 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-07 16:58:24,457 INFO listen for service meta change
+
+2022-03-07 16:58:26,350 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-07 16:58:26,350 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-07 16:58:26,350 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-07 16:58:26,351 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-07 16:58:27,347 INFO Load instance extension handler []
+
