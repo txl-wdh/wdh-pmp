@@ -1,0 +1,20 @@
+version : '3.8'
+services:
+  ruoyi-redis:
+    container_name: ruoyi-redis
+    image: redis
+    restart: always
+#    build:
+#      context: ./
+#      dockerfile: dockerfile
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./conf/redis.conf:/home/ruoyi/redis/redis.conf
+      - ./data:/data
+    command: redis-server /home/ruoyi/redis/redis.conf
+    networks:
+      - wdh-pmp
+networks:
+  wdh-pmp:
+    external: true

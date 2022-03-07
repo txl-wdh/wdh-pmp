@@ -19,23 +19,23 @@ cp -r ../wdh-ui/dist/** ./nginx/html/dist
 
 # copy jar
 echo "begin copy wdh-gateway "
-cp ../wdh-gateway/target/wdh-gateway.jar ./ruoyi/gateway/jar
+cp ../wdh-gateway/target/wdh-gateway.jar ./wdh/gateway/jar
 
 echo "begin copy wdh-auth "
-cp ../wdh-auth/target/wdh-auth.jar ./ruoyi/auth/jar
+cp ../wdh-auth/target/wdh-auth.jar ./wdh/auth/jar
 
 echo "begin copy wdh-visual "
-cp ../wdh-visual/wdh-monitor/target/wdh-visual-monitor.jar  ./ruoyi/visual/monitor/jar
+cp ../wdh-visual/wdh-monitor/target/wdh-visual-monitor.jar  ./wdh/visual/monitor/jar
 
 echo "begin copy wdh-modules-system "
-cp ../wdh-modules/wdh-system/target/wdh-modules-system.jar ./ruoyi/modules/system/jar
+cp ../wdh-modules/wdh-system/target/wdh-modules-system.jar ./wdh/modules/system/jar
 
 echo "begin copy wdh-modules-file "
-cp ../wdh-modules/wdh-file/target/wdh-modules-file.jar ./ruoyi/modules/file/jar
+cp ../wdh-modules/wdh-file/target/wdh-modules-file.jar ./wdh/modules/file/jar
 
 echo "begin copy wdh-modules-job "
-cp ../wdh-modules/wdh-job/target/wdh-modules-job.jar ./ruoyi/modules/job/jar
+cp ../wdh-modules/wdh-job/target/wdh-modules-job.jar ./wdh/modules/job/jar
 
 echo "begin copy wdh-modules-gen "
-cp ../wdh-modules/wdh-gen/target/wdh-modules-gen.jar ./ruoyi/modules/gen/jar
+cp ../wdh-modules/wdh-gen/target/wdh-modules-gen.jar ./wdh/modules/gen/jar
 
