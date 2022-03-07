@@ -1,0 +1,426 @@
+2022-03-06 02:43:11,500 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-06 02:43:11,500 WARN Using naming.distro config to replace core.distro config
+
+2022-03-06 02:43:11,651 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-06 02:43:11,653 INFO listen for service meta change
+
+2022-03-06 02:43:11,659 INFO upgrade.state file is not exist
+
+2022-03-06 02:43:13,448 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-06 02:43:13,448 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-06 02:43:13,449 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-06 02:43:13,449 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-06 02:43:14,351 INFO Load instance extension handler []
+
+2022-03-06 02:44:57,753 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-03-06 02:44:57,763 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-03-06 02:44:58,969 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-06 02:44:58,969 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-06 02:45:44,772 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-06 02:45:44,772 WARN Using naming.distro config to replace core.distro config
+
+2022-03-06 02:45:44,905 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-06 02:45:44,907 INFO listen for service meta change
+
+2022-03-06 02:45:44,913 INFO upgrade.state file is not exist
+
+2022-03-06 02:45:46,484 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-06 02:45:46,484 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-06 02:45:46,486 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-06 02:45:46,486 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-06 02:45:47,344 INFO Load instance extension handler []
+
+2022-03-06 02:46:20,875 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-03-06 02:46:20,885 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-03-06 02:46:22,417 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-06 02:46:22,417 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-06 02:47:53,275 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-06 02:47:53,275 WARN Using naming.distro config to replace core.distro config
+
+2022-03-06 02:47:53,414 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-06 02:47:53,415 INFO listen for service meta change
+
+2022-03-06 02:47:53,420 INFO upgrade.state file is not exist
+
+2022-03-06 02:47:54,977 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-06 02:47:54,977 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-06 02:47:54,978 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-06 02:47:54,978 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-06 02:47:55,803 INFO Load instance extension handler []
+
+2022-03-06 02:50:06,878 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-03-06 11:04:49,663 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-06 11:04:49,663 WARN Using naming.distro config to replace core.distro config
+
+2022-03-06 11:04:49,810 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-06 11:04:49,812 INFO listen for service meta change
+
+2022-03-06 11:04:51,582 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-06 11:04:51,582 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-06 11:04:51,584 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-06 11:04:51,584 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-06 11:04:52,517 INFO Load instance extension handler []
+
+2022-03-06 17:50:00,905 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-03-06 17:50:00,910 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-03-06 17:50:01,839 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-06 17:50:01,839 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-06 19:48:25,151 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-06 19:48:25,151 WARN Using naming.distro config to replace core.distro config
+
+2022-03-06 19:48:25,327 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-06 19:48:25,348 INFO listen for service meta change
+
+2022-03-06 19:48:25,358 INFO upgrade.state file is not exist
+
+2022-03-06 19:48:26,861 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-06 19:48:26,861 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-06 19:48:26,866 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-06 19:48:26,866 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-06 19:48:27,853 INFO Load instance extension handler []
+
+2022-03-06 19:58:38,218 INFO Client connection 1646567918207_172.18.0.1_62826 connect
+
+2022-03-06 19:58:39,007 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=0}, 1646567918207_172.18.0.1_62826
+
+2022-03-06 20:00:27,663 INFO Client connection 1646568027656_172.18.0.1_62838 connect
+
+2022-03-06 20:00:28,575 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1646568027656_172.18.0.1_62838
+
+2022-03-06 20:02:29,971 INFO Client connection 1646568149960_172.18.0.1_62864 connect
+
+2022-03-06 20:02:31,207 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, 1646568149960_172.18.0.1_62864
+
+2022-03-06 20:08:50,581 INFO Client connection 1646568024887_172.18.0.1_62836 disconnect, remove instances and subscribers
+
+2022-03-06 20:08:50,587 INFO Client connection 1646568028285_172.18.0.1_62840 disconnect, remove instances and subscribers
+
+2022-03-06 20:08:50,590 INFO Client connection 1646568027656_172.18.0.1_62838 disconnect, remove instances and subscribers
+
+2022-03-06 20:09:56,807 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2022-03-06 20:10:08,716 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, 1646568149960_172.18.0.1_62864
+
+2022-03-06 20:10:09,041 INFO Client connection 1646568149960_172.18.0.1_62864 disconnect, remove instances and subscribers
+
+2022-03-06 20:10:09,582 INFO Client connection 1646568142653_172.18.0.1_62850 disconnect, remove instances and subscribers
+
+2022-03-06 20:10:20,549 INFO Client connection 1646568620541_172.18.0.1_62884 connect
+
+2022-03-06 20:10:21,798 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, 1646568620541_172.18.0.1_62884
+
+2022-03-06 20:10:23,847 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, 1646568620541_172.18.0.1_62884
+
+2022-03-06 20:10:24,474 INFO Client connection 1646568620541_172.18.0.1_62884 disconnect, remove instances and subscribers
+
+2022-03-06 20:10:24,996 INFO Client connection 1646568614709_172.18.0.1_62870 disconnect, remove instances and subscribers
+
+2022-03-06 20:10:35,045 INFO Client connection 1646568635036_172.18.0.1_62902 connect
+
+2022-03-06 20:10:37,214 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=4}, 1646568635036_172.18.0.1_62902
+
+2022-03-06 20:10:46,631 INFO Client connection 1646568646622_172.18.0.1_62908 connect
+
+2022-03-06 20:10:47,806 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1646568646622_172.18.0.1_62908
+
+2022-03-06 20:10:59,787 INFO Client connection 1646568646622_172.18.0.1_62908 disconnect, remove instances and subscribers
+
+2022-03-06 20:10:59,791 INFO Client connection 1646568647545_172.18.0.1_62910 disconnect, remove instances and subscribers
+
+2022-03-06 20:10:59,801 INFO Client connection 1646568642459_172.18.0.1_62906 disconnect, remove instances and subscribers
+
+2022-03-06 20:12:56,715 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2022-03-06 21:01:09,775 INFO Client connection 1646571669766_172.18.0.1_62936 connect
+
+2022-03-06 21:01:10,696 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1646571669766_172.18.0.1_62936
+
+2022-03-06 21:12:14,253 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, 1646571669766_172.18.0.1_62936
+
+2022-03-06 21:12:14,575 INFO Client connection 1646571669766_172.18.0.1_62936 disconnect, remove instances and subscribers
+
+2022-03-06 21:12:17,107 INFO Client connection 1646571666367_172.18.0.1_62934 disconnect, remove instances and subscribers
+
+2022-03-06 21:12:17,110 INFO Client connection 1646571670406_172.18.0.1_62938 disconnect, remove instances and subscribers
+
+2022-03-06 21:12:23,547 INFO Client connection 1646572343540_172.18.0.1_62946 connect
+
+2022-03-06 21:12:24,445 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=2}, 1646572343540_172.18.0.1_62946
+
+2022-03-06 21:12:47,506 INFO Client connection 1646572343540_172.18.0.1_62946 disconnect, remove instances and subscribers
+
+2022-03-06 21:12:47,509 INFO Client connection 1646572340708_172.18.0.1_62944 disconnect, remove instances and subscribers
+
+2022-03-06 21:12:47,515 INFO Client connection 1646572344159_172.18.0.1_62948 disconnect, remove instances and subscribers
+
+2022-03-06 21:13:54,204 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2022-03-06 21:19:48,888 INFO Client connection 1646572788881_172.18.0.1_62960 connect
+
+2022-03-06 21:19:49,781 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1646572788881_172.18.0.1_62960
+
+2022-03-06 21:19:59,953 INFO Client connection 1646572789501_172.18.0.1_62962 disconnect, remove instances and subscribers
+
+2022-03-06 21:19:59,960 INFO Client connection 1646572786168_172.18.0.1_62958 disconnect, remove instances and subscribers
+
+2022-03-06 21:19:59,963 INFO Client connection 1646572788881_172.18.0.1_62960 disconnect, remove instances and subscribers
+
+2022-03-06 21:21:53,875 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2022-03-06 21:43:28,540 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, 1646567918207_172.18.0.1_62826
+
+2022-03-06 21:43:28,604 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=5}, 1646568635036_172.18.0.1_62902
+
+2022-03-06 21:43:28,862 INFO Client connection 1646567918207_172.18.0.1_62826 disconnect, remove instances and subscribers
+
+2022-03-06 21:43:28,928 INFO Client connection 1646568635036_172.18.0.1_62902 disconnect, remove instances and subscribers
+
+2022-03-06 21:43:29,364 INFO Client connection 1646567914851_172.18.0.1_62824 disconnect, remove instances and subscribers
+
+2022-03-06 21:43:29,520 INFO Client connection 1646568628478_172.18.0.1_62888 disconnect, remove instances and subscribers
+
+2022-03-06 21:46:27,875 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-06 21:46:27,875 WARN Using naming.distro config to replace core.distro config
+
+2022-03-06 21:46:28,099 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-06 21:46:28,101 INFO listen for service meta change
+
+2022-03-06 21:46:28,108 INFO upgrade.state file is not exist
+
+2022-03-06 21:46:30,703 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-06 21:46:30,703 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-06 21:46:30,705 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-06 21:46:30,706 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-06 21:46:32,091 INFO Load instance extension handler []
+
+2022-03-06 21:49:23,143 INFO Client connection 1646574563131_172.18.0.1_59922 connect
+
+2022-03-06 21:49:23,967 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=0}, 1646574563131_172.18.0.1_59922
+
+2022-03-06 21:49:34,399 INFO Client connection 1646574574385_172.18.0.1_59928 connect
+
+2022-03-06 21:49:35,397 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1646574574385_172.18.0.1_59928
+
+2022-03-06 21:49:46,166 INFO Client connection 1646574586156_172.18.0.1_59948 connect
+
+2022-03-06 21:49:47,998 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, 1646574586156_172.18.0.1_59948
+
+2022-03-06 21:50:39,250 INFO Client connection 1646574571321_172.18.0.1_59926 disconnect, remove instances and subscribers
+
+2022-03-06 21:50:39,262 INFO Client connection 1646574574385_172.18.0.1_59928 disconnect, remove instances and subscribers
+
+2022-03-06 21:50:39,267 INFO Client connection 1646574575077_172.18.0.1_59930 disconnect, remove instances and subscribers
+
+2022-03-06 21:51:24,170 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, 1646574563131_172.18.0.1_59922
+
+2022-03-06 21:51:24,225 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, 1646574586156_172.18.0.1_59948
+
+2022-03-06 21:51:24,492 INFO Client connection 1646574563131_172.18.0.1_59922 disconnect, remove instances and subscribers
+
+2022-03-06 21:51:24,548 INFO Client connection 1646574586156_172.18.0.1_59948 disconnect, remove instances and subscribers
+
+2022-03-06 21:51:24,981 INFO Client connection 1646574559714_172.18.0.1_59920 disconnect, remove instances and subscribers
+
+2022-03-06 21:51:25,083 INFO Client connection 1646574579667_172.18.0.1_59934 disconnect, remove instances and subscribers
+
+2022-03-06 21:52:01,503 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2022-03-06 21:53:01,461 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-system] services are automatically cleaned
+
+2022-03-06 21:53:01,462 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-auth] services are automatically cleaned
+
+2022-03-06 22:12:36,004 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-03-06 22:12:36,004 WARN Using naming.distro config to replace core.distro config
+
+2022-03-06 22:12:36,227 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-06 22:12:36,228 INFO listen for service meta change
+
+2022-03-06 22:12:38,832 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-03-06 22:12:38,832 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-03-06 22:12:38,833 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-03-06 22:12:38,833 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-03-06 22:12:40,282 INFO Load instance extension handler []
+
+2022-03-06 22:14:07,188 INFO Client connection 1646576047176_172.18.0.1_61956 connect
+
+2022-03-06 22:14:07,814 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=0}, 1646576047176_172.18.0.1_61956
+
+2022-03-06 22:14:30,097 INFO Client connection 1646576070087_172.18.0.1_61962 connect
+
+2022-03-06 22:14:30,983 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1646576070087_172.18.0.1_61962
+
+2022-03-06 22:14:58,248 INFO Client connection 1646576098237_172.18.0.1_61982 connect
+
+2022-03-06 22:14:59,446 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, 1646576098237_172.18.0.1_61982
+
+2022-03-06 22:19:43,984 INFO Client connection 1646576383977_172.18.0.1_62020 connect
+
+2022-03-06 22:19:45,056 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=0}, 1646576383977_172.18.0.1_62020
+
+2022-03-06 22:31:50,696 INFO Client connection 1646577110687_172.18.0.1_62036 connect
+
+2022-03-06 22:31:51,521 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=0}, 1646577110687_172.18.0.1_62036
+
+2022-03-06 22:42:05,375 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, 1646576047176_172.18.0.1_61956
+
+2022-03-06 22:42:05,416 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, 1646576070087_172.18.0.1_61962
+
+2022-03-06 22:42:05,481 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, 1646576098237_172.18.0.1_61982
+
+2022-03-06 22:42:05,591 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=1}, 1646577110687_172.18.0.1_62036
+
+2022-03-06 22:42:05,702 INFO Client connection 1646576047176_172.18.0.1_61956 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:05,739 INFO Client connection 1646576070087_172.18.0.1_61962 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:05,809 INFO Client connection 1646576098237_172.18.0.1_61982 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:05,912 INFO Client connection 1646577110687_172.18.0.1_62036 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:06,211 INFO Client connection 1646576044161_172.18.0.1_61954 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:06,317 INFO Client connection 1646577108099_172.18.0.1_62034 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:06,376 INFO Client connection 1646576092759_172.18.0.1_61968 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:08,322 INFO Client connection 1646576067097_172.18.0.1_61960 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:08,325 INFO Client connection 1646576070659_172.18.0.1_61964 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:09,619 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=1}, 1646576383977_172.18.0.1_62020
+
+2022-03-06 22:42:09,949 INFO Client connection 1646576383977_172.18.0.1_62020 disconnect, remove instances and subscribers
+
+2022-03-06 22:42:10,350 INFO Client connection 1646576382071_172.18.0.1_62018 disconnect, remove instances and subscribers
+
+2022-03-06 22:43:08,604 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2022-03-06 22:43:08,605 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-file] services are automatically cleaned
+
+2022-03-06 22:43:08,605 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-system] services are automatically cleaned
+
+2022-03-06 22:43:08,605 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-auth] services are automatically cleaned
+
+2022-03-06 22:44:08,563 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-monitor] services are automatically cleaned
+
