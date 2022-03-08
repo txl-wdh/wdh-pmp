@@ -37,6 +37,7 @@ nbdist/
 
 ### docker ###
 docker/mysql/data/*
+docker/nacos/logs/*
 
 ######################################################################
 # Others

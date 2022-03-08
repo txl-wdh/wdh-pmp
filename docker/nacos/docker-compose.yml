@@ -1,7 +1,7 @@
 version : '3.8'
 services:
-  ruoyi-nacos:
-    container_name: ruoyi-nacos
+  wdh-nacos:
+    container_name: wdh-nacos
     image: nacos/nacos-server:v2.0.4
     restart: always
 #    build:
@@ -17,9 +17,9 @@ services:
       - "9848:9848"
       - "9849:9849"
     depends_on:
-      - ruoyi-mysql
+      - wdh-mysql
     links:
-      - ruoyi-mysql
+      - wdh-mysql
     networks:
       - wdh-pmp
 networks:

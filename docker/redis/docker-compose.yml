@@ -1,7 +1,7 @@
 version : '3.8'
 services:
-  ruoyi-redis:
-    container_name: ruoyi-redis
+  wdh-redis:
+    container_name: wdh-redis
     image: redis
     restart: always
 #    build:
