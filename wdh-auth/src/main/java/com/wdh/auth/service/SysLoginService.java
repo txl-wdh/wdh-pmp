@@ -21,7 +21,7 @@ import com.wdh.system.api.model.LoginUser;
 /**
  * 登录校验方法
  * 
- * @author ruoyi
+ * @author zhaosh
  */
 @Component
 public class SysLoginService

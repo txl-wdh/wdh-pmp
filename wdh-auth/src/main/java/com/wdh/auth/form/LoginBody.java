@@ -3,7 +3,7 @@ package com.wdh.auth.form;
 /**
  * 用户登录对象
  * 
- * @author ruoyi
+ * @author zhaosh
  */
 public class LoginBody
 {

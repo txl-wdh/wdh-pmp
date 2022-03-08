@@ -3,7 +3,10 @@ server:
   port: 9200
 
 # Spring
-spring: 
+spring:
+  main:
+    allow-circular-references: true
+    allow-bean-definition-overriding: true
   application:
     # 应用名称
     name: wdh-auth

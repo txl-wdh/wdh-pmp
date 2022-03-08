@@ -20,7 +20,7 @@ import com.wdh.system.api.model.LoginUser;
 /**
  * token 控制
  * 
- * @author ruoyi
+ * @author zhaosh
  */
 @RestController
 public class TokenController

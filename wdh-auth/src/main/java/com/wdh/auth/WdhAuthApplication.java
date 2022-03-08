@@ -8,15 +8,15 @@ import com.wdh.common.security.annotation.EnableRyFeignClients;
 /**
  * 认证授权中心
  * 
- * @author ruoyi
+ * @author zhaosh
  */
 @EnableRyFeignClients
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-public class RuoYiAuthApplication
+public class WdhAuthApplication
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(RuoYiAuthApplication.class, args);
+        SpringApplication.run(WdhAuthApplication.class, args);
         System.out.println("(♥◠‿◠)ﾉﾞ  认证授权中心启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
