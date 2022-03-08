@@ -1,7 +1,7 @@
 version : '3.8'
 services:
-  ruoyi-mysql:
-    container_name: ruoyi-mysql
+  wdh-mysql:
+    container_name: wdh-mysql
     image: mysql:5.7
     restart: always
 #    build:
@@ -19,7 +19,7 @@ services:
         '--lower-case-table-names=1'
     ]
     volumes:
-#      - ./conf:/etc/mysql/conf.d
+      - ./conf:/etc/mysql/conf.d
       - ./logs:/logs
       - ./data:/var/lib/mysql
     ports:
