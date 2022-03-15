@@ -1,23 +1,26 @@
-package com.wdh.file;
+package com.wdh.gen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import com.wdh.common.security.annotation.EnableCustomConfig;
+import com.wdh.common.security.annotation.EnableRyFeignClients;
 import com.wdh.common.swagger.annotation.EnableCustomSwagger2;
 
 /**
- * 文件服务
+ * 代码生成
  * 
  * @author ruoyi
  */
-@EnableCustomSwagger2
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-public class RuoYiFileApplication
+@EnableCustomConfig
+@EnableCustomSwagger2   
+@EnableRyFeignClients
+@SpringBootApplication
+public class WdhGenApplication
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(RuoYiFileApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  文件服务模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+        SpringApplication.run(WdhGenApplication.class, args);
+        System.out.println("(♥◠‿◠)ﾉﾞ  代码生成模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +
