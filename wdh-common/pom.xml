@@ -12,10 +12,10 @@
         <module>wdh-common-log</module>
         <module>wdh-common-core</module>
         <module>wdh-common-redis</module>
-        <module>wdh-common-swagger</module>
         <module>wdh-common-security</module>
         <module>wdh-common-datascope</module>
 		<module>wdh-common-datasource</module>
+        <module>wdh-common-swagger</module>
     </modules>
 
     <artifactId>wdh-common</artifactId>

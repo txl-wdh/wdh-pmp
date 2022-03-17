@@ -3,14 +3,12 @@ package com.wdh.file;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import com.wdh.common.swagger.annotation.EnableCustomSwagger2;
 
 /**
  * 文件服务
  * 
  * @author ruoyi
  */
-@EnableCustomSwagger2
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class WdhFileApplication
 {

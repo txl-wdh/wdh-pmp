@@ -46,6 +46,11 @@
             <groupId>com.github.tobato</groupId>
             <artifactId>fastdfs-client</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
         
         <!-- Minio -->
         <dependency>
@@ -59,13 +64,13 @@
             <groupId>com.wdh</groupId>
             <artifactId>wdh-api-system</artifactId>
         </dependency>
-        
-        <!-- RuoYi Common Swagger -->
+
+        <!-- wdh-common-swagger系统接口 -->
         <dependency>
             <groupId>com.wdh</groupId>
             <artifactId>wdh-common-swagger</artifactId>
+            <version>${wdh.version}</version>
         </dependency>
-        
     </dependencies>
 
     <build>

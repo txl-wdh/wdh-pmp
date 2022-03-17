@@ -41,13 +41,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 		
-        <!-- Swagger UI -->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>${swagger.fox.version}</version>
-        </dependency>
-		
         <!-- Mysql Connector -->
         <dependency>
             <groupId>mysql</groupId>
@@ -71,13 +64,13 @@
             <groupId>com.wdh</groupId>
             <artifactId>wdh-common-log</artifactId>
         </dependency>
-        
-        <!-- RuoYi Common Swagger -->
+
+        <!-- wdh-common-swagger系统接口 -->
         <dependency>
             <groupId>com.wdh</groupId>
             <artifactId>wdh-common-swagger</artifactId>
+            <version>${wdh.version}</version>
         </dependency>
-
     </dependencies>
 
     <build>

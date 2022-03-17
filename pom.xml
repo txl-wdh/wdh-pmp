@@ -23,8 +23,7 @@
         <alibaba.nacos.version>2.0.4</alibaba.nacos.version>
         <spring-boot-admin.version>2.6.2</spring-boot-admin.version>
         <spring-boot.mybatis>2.2.2</spring-boot.mybatis>
-        <swagger.fox.version>3.0.0</swagger.fox.version>
-        <swagger.core.version>1.6.2</swagger.core.version>
+        <knife4j.version>3.0.3</knife4j.version>
         <tobato.version>1.27.2</tobato.version>
         <kaptcha.version>2.3.2</kaptcha.version>
         <pagehelper.boot.version>1.4.1</pagehelper.boot.version>
@@ -98,18 +97,6 @@
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${spring-boot.mybatis}</version>
-            </dependency>
-
-            <!-- Swagger 依赖配置 -->
-            <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-models</artifactId>
-                <version>${swagger.core.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-annotations</artifactId>
-                <version>${swagger.core.version}</version>
             </dependency>
 
             <!-- 验证码 -->
@@ -186,13 +173,6 @@
             <dependency>
                 <groupId>com.wdh</groupId>
                 <artifactId>wdh-common-core</artifactId>
-                <version>${wdh.version}</version>
-            </dependency>
-
-            <!-- 接口模块 -->
-            <dependency>
-                <groupId>com.wdh</groupId>
-                <artifactId>wdh-common-swagger</artifactId>
                 <version>${wdh.version}</version>
             </dependency>
 
